@@ -36,20 +36,15 @@ The xG model was developed iteratively:
 ## Results
 ### Calibration Curve
 The final model demonstrates significantly improved calibration.  
-![Calibration Curve](images/compare models.png)
+![Calibration Curve]('images/compare models.png')
 
 ### ROC Curve
 The ROC curve shows an AUC of **0.80**, outperforming baseline models.  
-![ROC Curve](images/roc compare.png)
+![ROC Curve]('images/roc compare.png')
 
 ### SHAP Analysis
 Key features influencing the xG model predictions:  
-![SHAP Beeswarm Plot](images/my shap values.png)
+![SHAP Beeswarm Plot]('images/my shap values.png')
 
 ---
 
-## How to Run the Code
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/Football-xG-Model.git
-   cd Football-xG-Model
