@@ -4,7 +4,7 @@
 ## Introduction
 This project explores **Expected Goals (xG)** in football analytics using logistic regression. By engineering meaningful features and leveraging SHAP analysis, we developed a model that provides actionable insights into goal-scoring probabilities.
 
-![Cover Image](images/cover_image.png)
+![Cover Image](images/tirito.png)
 
 ---
 
@@ -36,15 +36,15 @@ The xG model was developed iteratively:
 ## Results
 ### Calibration Curve
 The final model demonstrates significantly improved calibration.  
-![Calibration Curve](images/calibration_curve.png)
+![Calibration Curve](images/compare models.png)
 
 ### ROC Curve
 The ROC curve shows an AUC of **0.80**, outperforming baseline models.  
-![ROC Curve](images/roc_curve.png)
+![ROC Curve](images/roc compare.png)
 
 ### SHAP Analysis
 Key features influencing the xG model predictions:  
-![SHAP Beeswarm Plot](images/shap_beeswarm.png)
+![SHAP Beeswarm Plot](images/my shap values.png)
 
 ---
 
